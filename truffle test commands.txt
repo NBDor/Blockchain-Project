@@ -1,0 +1,12 @@
+game = await CryptoGame.deployed()
+glad1 = await game.recruiteGladiator("0x8ca85965aDE95f900D13df01B5F7EAFFbBd7A3Ce", "Sven")
+game.gladiators(0)
+game.gladiators(1)
+game.gladiatorToOwner(0)
+game.gladiatorToOwner(1)
+
+game = await CryptoGame.deployed()
+game.getGladiatorsByOwner("0x8ca85965aDE95f900D13df01B5F7EAFFbBd7A3Ce")
+
+nGlads = await getGladiatorsByOwner("0x8ca85965aDE95f900D13df01B5F7EAFFbBd7A3Ce");
+nGlads.toNumber();
