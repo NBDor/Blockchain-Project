@@ -13,10 +13,10 @@ Decentralized Web Game (Dapp) that enables the player to manage and control the 
 ### Winning a Match:
 <img src="Screens/Win.png?raw=true" >
 
-### Losing a Match against a player:
+### Losing a Match to another player:
 <img src="Screens/Defeat.png?raw=true" >
 
-### Losing a Match against a computer generated gladiator:
+### Losing a Match to a computer generated gladiator:
 <img src="Screens/AiWins.png?raw=true" >
 
 ### Entering a cooldown phase after taking an action:
