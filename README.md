@@ -1,17 +1,13 @@
 # Blockchain-Project
+Decentralized Web Game (Dapp) that enables the player to manage and control the training regime of a single gladiator (eating, sleeping and training). The game utilizes a built-in cryptocurrency which is based on ethereum - ERC20 custom token. The player's decisions act as transactions which affect his total balance and rank.
 
-Instuctions for running the app:
+### Gladiator Recruitment:
+<img src="screens/111083841-2b792100-8518-11eb-9f2e-eceebc58c6b7.png?raw=true" width="450" height="450">
 
-1. Open Ganache
-2. Clone the project and open the directory in cmd
-    2.1 truffle migrate --reset
-    2.2 npm run dev
-    2.3. A browser page with an url of localhost:8000 should be opened for you with a "Loading..." message.
-3. Open MetaMask and make sure you're connected to Ganache network: localhost:7545
-4. Import any private key from Ganache to MetaMask EXCEPT THE FIRST ACCOUNT - the first Ganache address is the ingame "bank" that holds all ERC20 tokens.
-5. After connecting to a Ganache account with MetaMask if the page isn't refreshed and you are provided with a "Recruit" screen, press F5.
-6. Enjoy the game :)
 
-* For resetting the game and progress for all accounts -> run in console: truffle migrate --reset.
-  once it's finished, refresh the html page.
+
+## Built with:
+* **Solidity**
+* * **Truffle**
+* * **React**
 
